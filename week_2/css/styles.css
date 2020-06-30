@@ -33,6 +33,19 @@ p {
   clear: right;
 }
 
+#p1 {
+  background-color: #D69999;
+}
+
+#p2 {
+  background-color: #C24341; 
+  color: white;
+}
+
+#p3 {
+  background-color: #E6D299;
+}
+
 .container {
   margin: 10px;
   border: 3px solid black;
