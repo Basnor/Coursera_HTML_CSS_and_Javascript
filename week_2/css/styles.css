@@ -1,35 +1,41 @@
 /********** Base styles **********/
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 h1 {
-  margin-bottom: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 175%;
 }
 
 h2 {
-  width: 120px;
-  margin-right: auto;
-  margin-left: auto;
-  border: 1px solid black;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  padding: 5px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  text-align: center;
+  font-size: 125%;
   float: right;
 }
 
 p {
-  padding: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
   clear: right;
 }
 
-div {
-  border: 1px solid black;
+.container {
+  margin: 10px;
+  border: 3px solid black;
   background-color: #9a9a9a;
   position: relative;
 }
@@ -43,7 +49,6 @@ div {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -87,7 +92,6 @@ div {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -131,7 +135,6 @@ div {
 @media (max-width: 767px) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-sd-1 {
     width: 8.33%;
