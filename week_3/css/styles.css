@@ -23,6 +23,72 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+.nav_links li {
+  padding: 15px 5px;
+}
+
+.nav_links li a {
+  display: block;
+}
+
+.logo a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/********** Mobile menu **********/
+.nav_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  order: 1;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  order: 2;
+  /*display: none;*/
+}
+
+.item.active {
+  display: block;
+}
+
+/********** Navbar Toggle **********/
+.toggle {
+  cursor:pointer;
+}
+.bars {
+  background: black;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+.bars:before,
+.bars:after {
+  background: black;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.bars:before {
+  top: 5px;
+}
+.bars:after {
+  top: -5px;
+}
 
 
 /*header {
